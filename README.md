@@ -50,5 +50,3 @@ The main goal of this task is to clean the raw dataset by:
 python data_cleaning.py
 
 
-description     object
-dtype: object  
