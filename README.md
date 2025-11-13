@@ -105,4 +105,50 @@ print("\nData types:\n", df.dtypes)
 ```bash
 python data_cleaning.py
 
-  
+##output
+Missing values before cleaning:
+ show_id            0
+type               0
+title              0
+director        2634
+cast             825
+country          831
+date_added        10
+release_year       0
+rating             4
+duration           3
+listed_in          0
+description        0
+dtype: int64
+
+✅ Data cleaning complete! Saved as 'fully_cleaned_netflix_titles.csv'
+
+Missing values after cleaning:
+ show_id         0
+type            0
+title           0
+director        0
+cast            0
+country         0
+date_added      0
+release_year    0
+rating          0
+duration        0
+listed_in       0
+description     0
+dtype: int64
+
+Data types:
+ show_id         object
+type            object
+title           object
+director        object
+cast            object
+country         object
+date_added      object
+release_year     int64
+rating          object
+duration        object
+listed_in       object
+description     object
+dtype: object  
